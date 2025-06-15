@@ -20,7 +20,10 @@ public class UEPyLib : ModuleRules
 			"UMG"
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(new string[] {
+            "PythonScriptPlugin",
+            "UnrealEnginePython"
+        });
 
 		PublicIncludePaths.AddRange(new string[] {
 			"UEPyLib",
